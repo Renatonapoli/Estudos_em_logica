@@ -60,7 +60,7 @@ const numerosMultiplosDeTres = [];
 
 maisNumeros.forEach((numero) => {
   if (numero % 3 === 0) {
-    return numerosMultiplosDeTres.push(numero);
+    numerosMultiplosDeTres.push(numero);
   }
 });
 
